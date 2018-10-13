@@ -67,7 +67,7 @@ h1 {
 .play, .choices button {
     transition: all .3s ease-in-out;
 }
-.choices button:hover {
+.choices button.active {
     transform: scale(1.05);
 }
 .play:hover, .choices button:hover {
