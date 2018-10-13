@@ -10,15 +10,21 @@
 </head>
 <body>
     <div class="container">
+        <h1>Scissor - Rock - Paper Game </h1>
+        <div class="score">
+            <p>You : <span></span></p>
+            <p>Computer : <span></span> </p>
+        </div>
         <div class="choices">
-            <button class="Scissor" value="scissor">Scissor</button>
-            <button class="Rock" value="rock">Rock</button>
-            <button class="Paper" value="paper">Paper</button>   
+            <button class="Scissor" value="scissor"></button>
+            <button class="Rock" value="rock"></button>
+            <button class="Paper" value="paper"></button>   
         </div>
         <div class="display">
             <div class="selections"></div>
-            <div class="result"></div>
+            <div class="result">Make a choice</div>
         </div> 
+        <button class="play" onclick="oneRound()">Play</button>
     </div>
     <script src="js/sctipt.js"></script>
 </body>
